@@ -1,0 +1,59 @@
+<svg width="320" height="64" viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pedro Paez — Consultor Salesforce">
+
+  <!-- ── ISOTIPO (fondo azul para variante light) ── -->
+  <rect width="64" height="64" rx="14" fill="#1a8fe0"/>
+
+  <!-- Chevron izquierdo (echo) — blanco tenue -->
+  <polyline
+    points="16,22 28,32 16,42"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.35"
+  />
+
+  <!-- Chevron principal — blanco -->
+  <polyline
+    points="26,22 44,32 26,42"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Nodo -->
+  <circle cx="44" cy="32" r="4.5" fill="#ffffff"/>
+  <circle cx="44" cy="32" r="7" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+
+  <!-- ── WORDMARK ── -->
+  <line x1="82" y1="18" x2="82" y2="46" stroke="#d0dae6" stroke-width="1.5"/>
+
+  <!-- Nombre -->
+  <text
+    x="96"
+    y="36"
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="19"
+    font-weight="700"
+    fill="#0c1624"
+    letter-spacing="-0.4"
+  >Pedro Paez</text>
+
+  <!-- Punto azul -->
+  <circle cx="201" cy="33" r="3" fill="#1a8fe0"/>
+
+  <!-- Subtítulo -->
+  <text
+    x="96"
+    y="50"
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="9.5"
+    font-weight="500"
+    fill="#7d95b0"
+    letter-spacing="1.2"
+  >CONSULTOR SALESFORCE · ECUADOR</text>
+
+</svg>

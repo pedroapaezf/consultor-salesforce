@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pedro Paez isotipo">
+  <!-- Fondo: rounded square navy -->
+  <rect width="64" height="64" rx="14" fill="#0c1624"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="13.25" fill="none" stroke="#1e2d45" stroke-width="1.5"/>
+
+  <!-- Chevron izquierdo (más tenue) -->
+  <polyline
+    points="16,22 28,32 16,42"
+    fill="none"
+    stroke="#1a8fe0"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.35"
+  />
+
+  <!-- Chevron principal -->
+  <polyline
+    points="26,22 44,32 26,42"
+    fill="none"
+    stroke="#1a8fe0"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Nodo en el vértice (punto de decisión / flow node) -->
+  <circle cx="44" cy="32" r="4.5" fill="#1a8fe0"/>
+  <circle cx="44" cy="32" r="7" fill="none" stroke="#1a8fe0" stroke-width="1" opacity="0.3"/>
+</svg>

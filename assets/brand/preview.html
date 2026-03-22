@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Assets — Pedro Paez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f2f5;
+      color: #1a2535;
+      padding: 48px 32px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 { font-size: 1rem; font-weight: 600; color: #7d95b0; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 40px; }
+
+    .section { margin-bottom: 48px; }
+    .section-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #7d95b0; margin-bottom: 16px; }
+
+    .canvas {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 48px;
+      border-radius: 14px;
+      margin-right: 16px;
+      margin-bottom: 16px;
+    }
+
+    .canvas-dark  { background: #0c1624; }
+    .canvas-mid   { background: #162036; }
+    .canvas-light { background: #ffffff; border: 1px solid #e0e6ed; }
+    .canvas-gray  { background: #f0f2f5; border: 1px solid #e0e6ed; }
+
+    .row { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0; }
+
+    .size-label {
+      font-size: 0.72rem;
+      color: #7d95b0;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    .item { display: flex; flex-direction: column; align-items: center; margin-right: 16px; margin-bottom: 24px; }
+
+    .concept {
+      max-width: 560px;
+      background: #fff;
+      border: 1px solid #e0e6ed;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 32px;
+    }
+    .concept h3 { font-size: 0.9rem; font-weight: 600; color: #0c1624; margin-bottom: 8px; }
+    .concept p  { font-size: 0.85rem; color: #7d95b0; line-height: 1.65; }
+  </style>
+</head>
+<body>
+
+  <h1>Brand Assets · Pedro Paez</h1>
+
+  <!-- Concepto -->
+  <div class="concept">
+    <h3>Concepto del isotipo</h3>
+    <p>
+      Doble chevron con nodo de decisión. El chevron comunica dirección, avance y simplicidad.
+      El segundo chevron (más tenue) sugiere profundidad y proceso. El nodo en el vértice
+      referencia el elemento de decisión de Salesforce Flow — el corazón de la metodología declarativa.
+      La forma de conjunto transmite: <strong>camino claro, sin fricción, sin rodeos.</strong>
+    </p>
+  </div>
+
+  <!-- Logo completo — dark -->
+  <div class="section">
+    <div class="section-label">Logo completo — fondo oscuro</div>
+    <div class="row">
+      <div class="item">
+        <div class="canvas canvas-dark">
+          <img src="logo-dark.svg" width="320" height="64" alt="Logo Pedro Paez dark" />
+        </div>
+        <p class="size-label">320 × 64px — uso principal</p>
+      </div>
+      <div class="item">
+        <div class="canvas canvas-mid">
+          <img src="logo-dark.svg" width="240" height="48" alt="Logo Pedro Paez dark medium" />
+        </div>
+        <p class="size-label">240 × 48px — nav / header</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logo completo — light -->
+  <div class="section">
+    <div class="section-label">Logo completo — fondo claro</div>
+    <div class="row">
+      <div class="item">
+        <div class="canvas canvas-light">
+          <img src="logo-light.svg" width="320" height="64" alt="Logo Pedro Paez light" />
+        </div>
+        <p class="size-label">320 × 64px — fondo blanco</p>
+      </div>
+      <div class="item">
+        <div class="canvas canvas-gray">
+          <img src="logo-light.svg" width="240" height="48" alt="Logo Pedro Paez light medium" />
+        </div>
+        <p class="size-label">240 × 48px — fondo gris</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Isotipo solo -->
+  <div class="section">
+    <div class="section-label">Isotipo solo</div>
+    <div class="row">
+      <div class="item">
+        <div class="canvas canvas-dark">
+          <img src="isotipo.svg" width="64" height="64" alt="Isotipo Pedro Paez grande" />
+        </div>
+        <p class="size-label">64px — uso normal</p>
+      </div>
+      <div class="item">
+        <div class="canvas canvas-dark">
+          <img src="isotipo.svg" width="48" height="48" alt="Isotipo Pedro Paez mediano" />
+        </div>
+        <p class="size-label">48px — compacto</p>
+      </div>
+      <div class="item">
+        <div class="canvas canvas-dark">
+          <img src="isotipo.svg" width="32" height="32" alt="Isotipo Pedro Paez pequeño" />
+        </div>
+        <p class="size-label">32px — mínimo</p>
+      </div>
+      <div class="item">
+        <div class="canvas canvas-light">
+          <img src="isotipo.svg" width="64" height="64" alt="Isotipo Pedro Paez en fondo claro" />
+        </div>
+        <p class="size-label">64px — fondo claro</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Paleta de colores -->
+  <div class="section">
+    <div class="section-label">Paleta de marca</div>
+    <div class="row">
+      <div class="item">
+        <div style="width:80px; height:80px; border-radius:10px; background:#0c1624;"></div>
+        <p class="size-label">#0c1624<br>Navy</p>
+      </div>
+      <div class="item">
+        <div style="width:80px; height:80px; border-radius:10px; background:#1a8fe0;"></div>
+        <p class="size-label">#1a8fe0<br>Blue</p>
+      </div>
+      <div class="item">
+        <div style="width:80px; height:80px; border-radius:10px; background:#3aa5f2;"></div>
+        <p class="size-label">#3aa5f2<br>Blue Light</p>
+      </div>
+      <div class="item">
+        <div style="width:80px; height:80px; border-radius:10px; background:#ffffff; border:1px solid #e0e6ed;"></div>
+        <p class="size-label">#ffffff<br>White</p>
+      </div>
+      <div class="item">
+        <div style="width:80px; height:80px; border-radius:10px; background:#7d95b0;"></div>
+        <p class="size-label">#7d95b0<br>Muted</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
